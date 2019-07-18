@@ -67,11 +67,12 @@ header h4{
   color: #444857;
 }
 
-section, footer{
+section{
   height: 500px;
 }
+
 #welcome-section{
-  margin-top: 110px;
+   margin-top: 110px;
   background-color: grey;
   background: linear-gradient(
       rgba(230, 0, 0, 0.5), 
@@ -182,9 +183,9 @@ font-size: 2.7em;
 #our-process{
   background-color: white;
   text-align: center;
-  Padding-left: 100px;
+  padding-left: 100px;
   padding-right: 100px;
-  height: 700px;
+  height: auto;
 
 }
 
@@ -248,21 +249,16 @@ font-size: 2.7em;
 
 #our-process .i-bg{
 background-color: #ED1F24;
-  height: 130px;
-   width: 130px;
+  height: 120px;
+   width: 120px;
 }
 
 #steps{
-   padding-top: 75px;
-  padding:  150px;
+   margin-bottom:  30px;
+   padding:  150px;
 }
 
-@media screen and (max-width: 2000px){
-  #steps{
-    padding: 50px;
-  }
-  
-}
+
 
 
 #services{
@@ -273,8 +269,10 @@ background-color: #ED1F24;
   padding-left: 50px;
   padding-top: 100px;
   margin: 0;
+ 
   height: 1000px;
  color: black;
+ justify-content: center;
 }
 
 
@@ -289,22 +287,55 @@ background-color: #ED1F24;
   z-index: -10;
 }
 #services i{  
-  background-color: #ffffff;
-  padding: 12px;
-  transform: scale(1.5);
-  border-radius: 50px;
-  float: right;
-margin-top: 30px;
-
+   transform: scale(1.25);
+  border-radius: 0px;
+  margin: 0;
+padding: 0;
+  margin: 50px;
+  
+  
+  color: black;
+  }
+#services .i-bg {
+  margin: 0;
+padding: 0;
+background-color: white;
+border-radius: 100%;
+ height: 100%;
+ width: 100%;
+ 
 }
 
 #services h2, #services p{
-  margin-top: 0;
-  padding-top: 0;
-  padding:10px;
+ padding-left: 20px;
+ padding-right: 20px ;
+ 
 }
 
+#icon-col{
+background-color: yellow;
 
+ 
+}
+#text-col{
+  background-color: blue;
+  margin: 0;
+padding: 0;
+
+}
+
+#top-col{
+background-color: green;
+margin: 0;
+padding: 0;
+height: auto;
+}
+#bottom-col{
+  background-color: white;
+margin: 0;
+padding: 0;
+height: 50%;
+}
 
 #clients{
   background-color: white;
@@ -322,14 +353,14 @@ margin-top: 30px;
 
 
 
-.fa {
+#clients .fa {
  padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-   transform: scale(3.5)
+  transform: scale(3.5)
 
 }
 
@@ -387,7 +418,7 @@ margin-top: 30px;
 
 footer{
   background-color: #444857;
-  height: 100px;  
+  height: auto;  
   margin: 0;
   padding: 0;
 
@@ -403,8 +434,8 @@ footer{
    float: right;
    margin: 0;
    display: none;  
-   padding-top: 25px;
-   padding-right: 50px;
+   padding-top: 20px;
+   padding-right: 100px;
   }
 
 .fa fa-bars:hover{
@@ -427,12 +458,26 @@ footer{
 #toggle-menu{
   display: none;
 }
-/*    MOBILE TABLET SETUPS */
 
 
 /*    MOBILE TABLET SETUPS */
 
 
+/*    MOBILE TABLET SETUPS */
+
+@media screen and (max-width: 2000px){
+  #steps{
+    padding: 50px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 1300px){
+  #services{
+  }
+}
 @media screen and (max-width: 1200px){
   #nav-div{
     padding:0;
@@ -455,12 +500,12 @@ footer{
       
   }
   #logo h1{
-    font-size: 1.8em;
+    font-size: 2.2em;
     
   }
   
   #logo h4{
-    font-size: .9em;
+    font-size: 1em;
     
   }
   
@@ -525,6 +570,21 @@ footer{
  font-size: 1.7em;
   }
 }
+
+
+
+@media screen and (max-width: 1050px){
+  #our-process .row, #our-process .col-xs-4, #our-process .col-md-4 {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
 @media screen and (max-width: 600px){
   #logo, .menu-on {
     padding: 0px;

@@ -1,0 +1,61 @@
+body{
+	background-color: #e6e6e6 !important;
+}
+
+h1{
+	text-align: center;
+}
+#blog.html body{
+  background-color: grey; 
+}
+
+#recent-blogs{
+  height: auto;
+  padding: 1em;
+  
+}
+
+#recent-blogs .row{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-card{
+  background-color: white;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  margin-top: 30px;
+  
+  height:  35em;
+
+}
+
+.blog-card a{
+	text-decoration: none;
+	color: black;
+}
+
+.blog-tag{
+	font-size: 1em;
+	margin-bottom: .3em;
+}
+
+.blog-card span{
+  float: right;
+  font-size: .7em;
+  color: cyan;
+  padding: .7em;
+
+
+}
+
+#recent-blogs img{
+  height: 50%;
+  width: 100%;
+}
+
+.read-more-btn{
+	background-image:  linear-gradient(to bottom, cyan, cornflowerblue);
+	border-radius: 20px;
+	padding: .5em 1em .5em;
+}
