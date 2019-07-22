@@ -1,0 +1,408 @@
+*{
+	box-sizing: border-box;
+	 margin: 0px;
+    padding: 0px;
+    overflow-x:  hidden;
+}
+
+body, html{
+	background-color: #E8ECF0;
+	width: 100%;
+   	min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+header {
+	background: linear-gradient(to bottom, #e57b86 0%,#9e1f25 99%);
+	text-align: center;
+}
+
+#logo{
+	font-family: 'Raleway', 'sans-serif';
+/*	height: 85px;*/
+	padding: 9px;
+}
+
+header h1{
+	color: white;
+	font-size: 1.75em;
+}
+header h4{
+	color: black;
+	font-size: 1em;
+}
+
+#nav-bar{
+	background-color: white;
+	padding-top: 10px;
+	
+}
+
+
+.menu-on{
+	background-color: white;
+	color: black;
+	padding: 0px;
+	z-index: 1001;
+
+}
+
+/* disabled
+.menu-off{
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+	position: fixed;
+	z-index: 1000;
+	display: none;
+
+}
+*/
+
+
+label i{
+	transform: scale(3);
+	padding: 10px;
+}
+
+
+nav {
+	background-color: #242424;
+	min-width: 100%;
+	margin-top: 10px;
+	z-index: 1002;
+	}
+
+nav a{
+	font-size: 1.5em;
+	padding: 10px;
+	color: white;
+	display: none;
+	padding: 5px 10px;
+	border-bottom: 2px solid black;
+		border-top: 2px solid black;
+
+}
+
+#toggle-menu:checked ~ nav a{
+	display: block;
+}
+
+
+#toggle-menu:checked ~ .menu-off{
+	display: block;
+}
+
+
+#toggle-menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#welcome{
+
+  background-color: grey;
+  background: linear-gradient(
+      rgba(230, 0, 0, 0.5), 
+      rgba(230, 0, 0, 0.7)
+    ),url("https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+ 
+background-size: cover;
+  color: white;
+  text-align:center;
+/*  height: 400px;*/
+
+    width: 100%;
+    padding: 20px;
+
+}
+
+#welcome h1{
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+#welcome h4{
+   font-size: 1.2em;
+   margin-bottom: 50px;
+}
+}
+
+#welcome-buttons{
+	margin: 0 auto;
+	display: block;
+	
+}
+#contact-us-btn{
+	text-align: center;
+ background-color: #9A3D37;
+ color: white;
+ border-radius: 100px;
+ width: 120px;
+ height: 45px;
+ padding: 12px;
+display: block;
+border: 2px solid white;
+margin: 0 auto;
+margin-bottom: 25px;
+
+}
+
+#more-info-btn{
+	background-color: #444444;
+  color: white;
+  border-radius: 100px;
+ width: 120px;
+ height: 45px;
+ padding: 12px;
+display: block;
+border: 2px solid white;
+margin: 0 auto;
+}
+
+#contact-us-btn:hover{
+ background-color: #7a1d17;
+}
+
+#more-info-btn:hover{
+	background-color: #242424;
+
+}
+#services {
+ background-color: white;
+ text-align: center;
+/* height: 1000px;*/
+ padding: 20px;
+
+}
+
+#services hr{
+  width: 50px;
+  height: 3px;
+  background-color: red;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+#services .services-icon {
+  background-color: red;
+
+/*  height: 50px;*/
+  width: 50px;
+  padding: 5px;
+  padding-top: 15px;
+  margin: 0 auto;
+  z-index: 1;
+  -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+
+ 
+}
+
+#services i{  
+   transform: scale(2);
+   font-size: 20px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+    margin-top: 0px;
+  float: center;
+  color: black;
+  z-index: 0;
+  -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+
+  }
+
+
+#services .services-icon:hover  i{  
+  color: white;
+ transform: scale(1.6) rotate(-180deg);
+
+}
+
+
+#services .services-icon:hover {  
+  background-color: black;
+  transform:  rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+#testimonials{
+   background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.7)
+    ),url('https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+background-size: cover;
+  filter: grayscale(100%);
+
+
+  margin: 0 auto;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  padding: 30px;
+
+  
+}
+
+#testimonials h1{
+	font-size: 2em;
+}
+
+#client-services{
+background: linear-gradient(to top, #e57b86 0%,#9e1f25 99%);
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+/*	height: 100px;*/
+}
+
+img{
+	width: 100%;
+	padding: 10px;
+}
+
+.client-services-icon {
+  background-color: red;
+ 
+/*  height: 50px;*/
+  width: 50px;
+  padding: 15px;
+  margin: 0 auto;
+  z-index: 1;
+  -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+
+ 
+}
+
+.client-services-icon i{  
+   transform: scale(2);
+   font-size: 20px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+    margin-top: 0px;
+  float: center;
+  color: black;
+  z-index: 0;
+  -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+
+  }
+
+
+.client-services-icon:hover i{  
+  	color: white;
+ 	transform: scale(1.6) rotate(-180deg);
+
+}
+
+
+.client-services-icon:hover {  
+  background-color: black;
+  transform:  rotate(180deg);
+}
+
+#clients{
+	padding: 10px;
+}
+#clients button{
+	margin: 20px;
+
+}
+
+#logo-2{
+	background: linear-gradient(to bottom, #e57b86 0%,#9e1f25 99%);
+	text-align: center;
+	font-family: 'Raleway', 'sans-serif';
+/*	height: 85px;*/
+	padding: 9px;
+}
+
+#logo-2 h1{
+	color: white;
+	font-size: 1.5em;
+}
+#logo-2 h4{
+	color: black;
+	font-size: .75em;
+}
+
+#contact-info{
+	background-color: #1D1E22;
+	color: white;
+	padding-left: 3em;
+	
+}
+#contact-info h1{
+	color: white;
+	font-size: 1.5em;
+}
+
+
+
+
+footer{
+	background-color: #1D1E22;
+
+}
+
+#site-info{
+	background-color: grey;
+}
