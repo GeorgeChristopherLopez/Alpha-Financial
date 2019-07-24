@@ -1,84 +1,69 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <title>Home - NFIO Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen and (max-width:500px)" href="under500.css">
+   <link rel="stylesheet" media="screen and (min-width:500px)" href="over500.css">
+  <link rel="stylesheet" type="text/css" href="blog.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-
-
-    <title>Blog Page</title>
-      <link rel="stylesheet" type="text/css" href="blog.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+</head>
+<body>
+  <header>
+    <div class="row">
+  
+    <div id="logo" class="col-sm-12 col-xs-12 col-md-6"><h1>New Financial Investment Organization</h1><h4>Making financials friendly</h4></div>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div id="nav-bar" class="col-xs-12 col-sm-12 col-md-6">
+    <input id="toggle-menu" type="checkbox"/>
+    <label class="menu-on" for="toggle-menu"><i class="glyphicon glyphicon-menu-hamburger"></i></label>
+ <!--   <label class="menu-off" for="toggle-menu"></label> -->
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact-us.html">Contact</a>
+      </nav>
+    </div>    
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  </head>
+</div>
 
-<!--- BODY   ---->
-  
-  
-  <body>
+  </header>
 
 
-<!--- HEADER /NAV BAR ---->
+  <main>
+    <section id="welcome">
       
-      
-      <header id="site-header">
-
-       <div class="row">
-          <div class="col-md-6 col-xs-6 text-center" id="logo">                      
-             <h1>New Financial Investment Organization</h1>
-              <h4>Making financials friendly.</h4>
-            </div>
-         <div id="nav-div" class="col-xs-6 col-md-6 text-center">
-           <input id="toggle-menu" type="checkbox"/>
-           <label for="toggle-menu" class="menu-on"><i class="fa fa-bars"></i></label>
-            <label for="toggle-menu" class="menu-off"></label>
-           
-           
-           <nav>
-             <ul>
-  <li><a href="index.html">Home</a></li>
-   <li><a href="about-us.html">About Us</a></li>
-  <li><a href="contact-us.html">Contact Us</a></li>
-  <li><a href="blog.html">Blog</a></li>
-             </ul>          </nav></div>
-       <div>
-         </div>
-    </header>
-        
-        <!--- WELCOME SECTION --->
-        <main>        
-        <section id="welcome-section">
-
-        <div class="row">
+  <div class="row">
   
-          <div id="quote" class="col-xs-12 col-md-12">
-         <h1>Welcome to New Financial Investment Organization.<br> Where excepetional financial planning<br> for families, professionals and small business<br> is our mission and our passion.</h1>
+          <div id="welcome-quote" class="col-xs-12 col-md-12">
+         <h1>Financial Wealth Programs</h1>
+         <h4>Helping people take control of their wealth to achieve financial well-being</h4>
           </div>
           
         </div>
           
-      <div class="row">
+      <div id="welcome-buttons" class="row">
           
-           <div class="col-xs-6  col-md-6 text-uppercase">
+           <div class="col-xs-12  col-sm-6 text-uppercase">
          <a href="#"><p id="contact-us-btn">Contact Us</p></a>
             </div>
-           <div class="col-xs-6  col-md-6 text-uppercase">
+           <div class="col-xs-12  col-sm-6 text-uppercase">
          <a href="#"><p id="more-info-btn">More Info</p></a>
             </div>
           
       </div>
-          
-          </section>
-         
-  <!---- content  ----->      
+
+
+
+    </section>
+
     <section id="recent-blogs">
       
   
@@ -142,36 +127,24 @@
 
 
     </section>
-
-       <!---  FOOTER --->
-         <section id="contact-us">
-      <div class="container-fluid">
-
-       <div class="row">
+<footer>
+         <div class="row">
+           <div id="logo-2" class="col-xs-12 col-md-4" id="logo-2"> <h1>New Jersey Financial Institute</h1>
+              <h4>Making financials friendly.</h4></div>
+           <div id="contact-info" class="col-xs-12 col-md-4"><h1>Info</h1><p>info info info info info info info info info info</p><p>info info info info info info info info info info</p><p>info info info info info info info info info info</p><p>info info info info info info info info info info</p></div>
+           <div id="contact-info" class="col-xs-12 col-md-4"><h1> info</h1><p><i class="
+glyphicon glyphicon-home" style="font-size:1em; padding-right: 10px;"></i>  info info info info</p><br><p><i class="
+glyphicon glyphicon-phone-alt" style="font-size:1em; padding-right: 10px;"></i>  info info info info</p><br><p><i class="
+glyphicon glyphicon-envelope" style="font-size:1em; padding-right: 10px;"></i>  info info info info</p><br></div>
         
-          <div class="col-xs-4 col-md-4" id="logo-2"> 
-            <h1>New Jersey Financial Institute</h1>
-            <h4>Making financials friendly.</h4>
-         </div>
+         </div> 
+  </footer>
+  <div id="site-info">
+    <p class="text-center" style="padding: 5px;">Coded by George Christopher Lopez &copy 2019 </p>
+  </div>
 
-
-
-           <div class="col-xs-4 col-md-4"><h1>Info</h1><p>info info info info info info info info info info</p><p>info info info info info info info info info info</p><p>info info info info info info info info info info</p><p>info info info info info info info info info info</p></div>
-          
-           <div class="col-xs-4 col-md-4"><h1> info</h1><p><i class="glyphicon glyphicon-home" style="font-size:1em; padding-right: 10px;"></i>  info info info info</p><br><p><i class="glyphicon glyphicon-phone-alt" style="font-size:1em; padding-right: 10px;"></i>  info info info info</p><br><p><i class="glyphicon glyphicon-envelope" style="font-size:1em; padding-right: 10px;"></i>  info info info info</p><br></div>
-        
-         </div>
+  </main>
   
-          </div> 
-           </section>
-         
-         </main>
-       <!--- END OF FLUID CONTAINER -->
-        
-        <!--- FOOTER --->
-           <footer>
-            <p class="text-center" style="padding: 50px;">Coded by George Christopher Lopez &copy 2019 </p>
-          </footer>
-      
-  </body>
+
+</body>
 </html>

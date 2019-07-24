@@ -2,7 +2,7 @@ body{
 	background-color: #e6e6e6 !important;
 }
 
-h1{
+#recent-blogs h1{
 	text-align: center;
 }
 #blog.html body{
@@ -10,9 +10,10 @@ h1{
 }
 
 #recent-blogs{
-  height: auto;
+
   padding: 1em;
-  
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #recent-blogs .row{
@@ -26,7 +27,6 @@ h1{
   padding: 1em;
   margin-top: 30px;
   
-  height:  35em;
 
 }
 

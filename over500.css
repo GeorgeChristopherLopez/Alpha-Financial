@@ -285,7 +285,8 @@ background-size: cover;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
   padding: 30px;
-
+  padding-top: 100px;
+  padding-bottom: 100px;
   
 }
 
@@ -440,17 +441,17 @@ footer{
 }
 
 nav{
-   background-color: inherit;
+   background-color: static;
    padding: 0;
    margin: 0;
 }
 
 
 #nav-bar{
-  background-color: inherit;
-  height: inherit;
-    padding: 25px;
-   margin: 0;
+  background-color: #242424;
+  padding: 0;
+  margin: 0;
+  
 }
   
 
@@ -465,5 +466,26 @@ nav{
   
 }
 
+}
+@media screen and (min-width: 992px){
+  nav{
+   background-color: inherit;
+   padding: 0;
+   margin: 0;
+}
 
+
+#nav-bar{
+  background-color: inherit;
+  height: inherit;
+    padding: 25px;
+   margin: 0;
+}
+  
+
+#logo-2.col-md-4{
+  height: inherit !important;
+  min-height: 203px;
+  padding: 75px;
+}
 }
