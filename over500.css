@@ -8,7 +8,7 @@
 
 
 body, html{
-  background-color: #E8ECF0;
+  background-color: #00BDF4;
   width: 100%;
     min-height: 100%;
     margin: 0px;
@@ -18,7 +18,7 @@ body, html{
 
 
 header {
-  background: linear-gradient(to bottom, #e57b86 0%,#9e1f25 99%);
+  background: linear-gradient(to top, #00BDF4 0%,#004988 99%);
   text-align: center;
 }
 
@@ -124,8 +124,8 @@ nav a{
 
   background-color: grey;
   background: linear-gradient(
-      rgba(230, 0, 0, 0.5), 
-      rgba(230, 0, 0, 0.7)
+   rgba(0,74,137, 0.3), 
+      rgba(0,189,244, 0.5)
     ),url("https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
  
 background-size: cover;
@@ -156,7 +156,7 @@ background-size: cover;
 }
 #contact-us-btn{
   text-align: center;
- background-color: #9A3D37;
+ background-color: #00BDF4;
  color: white;
  border-radius: 100px;
  width: 120px;
@@ -182,7 +182,7 @@ margin: 0 auto;
 }
 
 #contact-us-btn:hover{
- background-color: #7a1d17;
+ background-color: #004988;
 }
 
 #more-info-btn:hover{
@@ -200,14 +200,14 @@ margin: 0 auto;
 #services hr{
   width: 50px;
   height: 3px;
-  background-color: red;
+  background-color: #004988;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
 
 #services .services-icon {
-  background-color: red;
+  background-color: #004988;
 
 /*  height: 50px;*/
   width: 50px;
@@ -295,10 +295,11 @@ background-size: cover;
 }
 
 #client-services{
-background: linear-gradient(to top, #e57b86 0%,#9e1f25 99%);
+background: linear-gradient(to top, #00BDF4 0%,#004988 99%);
   color: black;
   margin: 0 auto;
   text-align: center;
+   padding: 0 0 50px 0;
 /*  height: 100px;*/
 }
 
@@ -309,12 +310,12 @@ background: linear-gradient(to top, #e57b86 0%,#9e1f25 99%);
 }
 
 img{
-  width: 100%;
-  padding: 10px;
+  width: 50%;
+  padding: 20px;
 }
 
 .client-services-icon {
-  background-color: red;
+  background-color: #004988;
  
 /*  height: 50px;*/
   width: 50px;
@@ -355,7 +356,6 @@ img{
 
   }
 
-
 .client-services-icon:hover i{  
     color: white;
   transform: scale(1.6) rotate(-180deg);
@@ -378,7 +378,7 @@ img{
 }
 
 #logo-2{
-  background: linear-gradient(to bottom, #e57b86 0%,#9e1f25 99%);
+  background: linear-gradient(to bottom, #00BDF4 0%,#004988 99%);
   text-align: center;
   font-family: 'Raleway', 'sans-serif';
 /*  height: 85px;*/
